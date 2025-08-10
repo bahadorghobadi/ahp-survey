@@ -1,0 +1,92 @@
+{
+  "title": "Pairwise Comparison Questionnaire for Geomagnetic Observatory Site Selection",
+  "subtitle": "Based on Analytic Hierarchy Process (AHP)",
+  "institution": "Institute of Geophysics, University of Tehran",
+  "description": "This questionnaire aims to determine the importance and priority of technical and environmental standards in the process of geomagnetic observatory site selection in Tehran Province. Please evaluate the criteria using pairwise comparisons with the Saaty 1-9 scale.",
+  "instructions": "For each pair of criteria, please answer this key question: To what extent is the evaluated criterion superior or inferior compared to the reference criterion? If the evaluated criterion is less important than the reference, use the reciprocal of the number.",
+  "start": "Start Evaluation",
+  "next": "Next Step",
+  "prev": "Previous Step",
+  "submit": "Final Submit",
+  "step0": {
+    "title": "Participant Information",
+    "name": "Full Name",
+    "email": "Email (Optional)",
+    "org": "Organization / University (Optional)",
+    "position": "Position / Academic Rank (Optional)"
+  },
+  "step1": {
+    "title": "Main Criteria Comparison",
+    "description": "Please compare the relative importance of the three main criteria:",
+    "criteria": {
+      "naturalHazards": "Natural Hazards",
+      "naturalNoise": "Natural Electromagnetic Noise",
+      "artificialNoise": "Artificial Electromagnetic Noise"
+    }
+  },
+  "step2": {
+    "title": "Natural Hazards Sub-criteria",
+    "criteria": {
+      "geology": "Regional Geology",
+      "faults": "Active Fault Lines", 
+      "earthquake": "Earthquake Risk"
+    }
+  },
+  "step3": {
+    "title": "Natural EM Noise Sub-criteria",
+    "criteria": {
+      "topography": "Topography",
+      "coastlines": "Coastlines",
+      "anomalies": "Magnetic Anomalies"
+    }
+  },
+  "step4": {
+    "title": "Artificial EM Noise Sub-criteria",
+    "criteria": {
+      "powerLines": "Power Lines",
+      "powerPlants": "Power Plants",
+      "dcRailway": "DC Railway",
+      "mines": "Active Mines",
+      "gasPipelines": "Gas Pipelines",
+      "ruralAreas": "Rural Areas",
+      "mainRoads": "Main Roads",
+      "industrialAreas": "Cities/Industrial Towns",
+      "railway": "Railway"
+    }
+  },
+  "scale": {
+    "title": "Saaty Scale",
+    "values": {
+      "1": "Equal importance",
+      "2": "Weak or slight",
+      "3": "Moderate importance",
+      "4": "Moderate plus",
+      "5": "Strong importance",
+      "6": "Strong plus",
+      "7": "Very strong or demonstrated importance",
+      "8": "Very, very strong",
+      "9": "Extreme importance"
+    }
+  },
+  "consistency": {
+    "title": "Consistency Ratio (CR)",
+    "good": "Acceptable consistency",
+    "warning": "Consider reviewing your responses",
+    "value": "CR = "
+  },
+  "results": {
+    "title": "Final Results",
+    "weights": "Calculated Weights:",
+    "download": "Download PDF Results",
+    "thanks": "Thank you for participating in this research"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "responses": "Responses",
+    "participant": "Participant",
+    "section": "Section",
+    "cr": "CR",
+    "date": "Date",
+    "view": "View"
+  }
+}
